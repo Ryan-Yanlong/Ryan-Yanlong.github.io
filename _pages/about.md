@@ -10,10 +10,9 @@ redirect_from:
 
 Hi! I’m **Yanlong Zhao (赵衍龙)**, a researcher focusing on **AI for Science** and **Geometric Machine Learning**. My work sits at the intersection of machine learning and biomedical knowledge graphs, with a particular interest in building models that are both predictive and mechanistically interpretable. I am currently working under the supervision of [**Prof. Ren Wang**](https://wangren09.github.io/) and [**Prof. Can Chen**](https://tarheels.live/canc/), focusing on AI-driven methods for biomedical discovery and biological network modeling.
 
-## Photography
+## Hobbies
 
-Outside of my research, I am passionate about [photography](/photography/). I work with both digital and film formats.
-
+Outside of my research, I enjoy photography and alpine skiing⛷️. I am passionate about [photography](/photography/) and work with both digital and film formats.
 
 ## Research interests
 - Graph Neural Networks for Biological Networks
