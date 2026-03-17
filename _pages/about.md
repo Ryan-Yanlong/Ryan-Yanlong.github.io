@@ -29,3 +29,14 @@ Outside of my research, I enjoy photography and alpine skiing⛷️. I am passio
 ### Updates
 - **(Published)** MuSHIN: A multi-way SMILES-based hypergraph inference network for metabolic model reconstruction - [Paper](https://www.nature.com/articles/s42003-026-09761-1)
 - Dual-route embedding-aware graph neural networks for drug repositioning — published in *Briefings in Bioinformatics* (2025). [Paper](https://academic.oup.com/bib/article/26/5/bbaf555/8303423)
+
+---
+<h2>Visitors</h2>
+
+<div style="text-align:center; margin: 20px 0;">
+  <script
+    type="text/javascript"
+    id="mapmyvisitors"
+    src="//mapmyvisitors.com/map.js?d=R3n_PHdd_S2y1tbgOyp7UUp9LD_0IIaM5u6Cjku-De4&cl=ffffff&w=a">
+  </script>
+</div>
