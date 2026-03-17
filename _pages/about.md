@@ -20,8 +20,10 @@ Hi! I’m **Yanlong Zhao (赵衍龙)**, a researcher focusing on **AI for Scienc
 - **DREAM-GNN**: A multimodal graph learning framework for drug–disease association prediction that combines molecular, biological, and textual representations.
 
 ## News
-- **2026** — **MuSHIN**: *A multi-way SMILES-based hypergraph inference network for metabolic model reconstruction* published in *Communications Biology*. [Paper](https://www.nature.com/articles/s42003-026-09761-1)
-- **2025** — **DREAM-GNN**: *Dual-route embedding-aware graph neural networks for drug repositioning* published in *Briefings in Bioinformatics*. [Paper](https://academic.oup.com/bib/article/26/5/bbaf555/8303423)
+
+- **2026** — Co-first-author work **MuSHIN** (with Yixiao Chen) published in *Communications Biology*. [Paper](https://www.nature.com/articles/s42003-026-09761-1)
+- **2025** — First-author work **DREAM-GNN** published in *Briefings in Bioinformatics*. [Paper](https://academic.oup.com/bib/article/26/5/bbaf555/8303423)
+
 
 ---
 ## Hobbies
