@@ -28,6 +28,6 @@ Hi! I’m **Yanlong Zhao (赵衍龙)**, a researcher focusing on **AI for Scienc
 ---
 ## Hobbies
 
-Outside of my research, I enjoy photography and alpine skiing⛷️. I am passionate about [photography](/photography/) and work with both digital and film formats.
+Outside of my research, I enjoy photography📷 and alpine skiing⛷️. I am passionate about [photography](/photography/) and work with both digital and film formats.
 
 
