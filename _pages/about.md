@@ -17,7 +17,7 @@ Starting in August 2026, I will join [UNC-Chapel Hill](https://www.unc.edu/) as 
 
 ## Research interests
 - Graph Neural Networks for Biological Networks
-- Agent AI for Science
+- Foundation models
 
 ## Selected Projects
 - **MuSHIN**: A hypergraph-based framework for metabolic gap-filling and reaction prediction in genome-scale metabolic models, integrating biochemical structure and network context.
