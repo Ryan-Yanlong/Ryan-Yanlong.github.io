@@ -30,8 +30,8 @@ Starting in August 2026, I will join [UNC-Chapel Hill](https://www.unc.edu/) as 
 
 
 ---
-## Hobbies
+## Outside of my research
 
-Outside of my research, I enjoy photography📷 and alpine skiing⛷️. I am passionate about [photography](/photography/) and work with both digital and film formats.
+Outside of my research, I enjoy photography📷 and alpine skiing⛷️. I am particularly passionate about film photograph, and I often shoot with a Hasselblad 503CW and an 80mm CF T lens. Alongside film, I also work with digital photography. [Here](/photography/)are some of my photos.
 
 
