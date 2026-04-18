@@ -22,7 +22,7 @@ Starting in August 2026, I will join [UNC at Chapel Hill](https://www.unc.edu/) 
   <div class="exp-card">
     <img src="/images/logos/unc.svg" alt="UNC Chapel Hill" class="exp-logo">
     <div class="exp-content">
-      <p class="exp-role">Ph.D. in Data Science</p>
+      <p class="exp-role">Ph.D. student in Data Science</p>
       <p class="exp-org"><strong>University of North Carolina at Chapel Hill</strong></p>
       <p class="exp-meta">Advisor: Prof. Jun Li</p>
       <p class="exp-period">Aug 2026 – Present (Incoming)</p>
