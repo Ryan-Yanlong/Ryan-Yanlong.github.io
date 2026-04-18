@@ -84,6 +84,7 @@ Starting in August 2026, I will join [UNC at Chapel Hill](https://www.unc.edu/) 
 
 </div>
 
+
 ## Research interests
 - Graph Neural Networks for Biological Networks
 - Foundation models
