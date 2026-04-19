@@ -111,10 +111,6 @@ Starting in August 2026, I will join [UNC at Chapel Hill](https://www.unc.edu/) 
 - Graph Neural Networks for Biological Networks
 - Foundation models
 
-## Selected Projects
-- **MuSHIN**: A hypergraph-based framework for metabolic gap-filling and reaction prediction in genome-scale metabolic models, integrating biochemical structure and network context.
-- **DREAM-GNN**: A multimodal graph learning framework for drug–disease association prediction that combines molecular, biological, and textual representations.
-
 ## News
 
 - **2026** — Co-first-author work **MuSHIN** (with Yixiao Chen) published in *Communications Biology*. [Paper](https://www.nature.com/articles/s42003-026-09761-1)
