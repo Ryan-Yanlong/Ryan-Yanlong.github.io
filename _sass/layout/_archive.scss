@@ -96,7 +96,6 @@
 
   .archive__item-thumb {
     flex: 0 0 auto;
-    width: 200px;
     margin-top: 1.5em; /* line the figure's top up with the title text */
 
     a {
@@ -107,8 +106,11 @@
 
     img {
       display: block;
-      width: 100%;
-      height: auto;
+      /* fix the HEIGHT (not the width) so wide, short figures get the
+         same visual height as taller ones and no longer look flat */
+      height: 108px;
+      width: auto;
+      max-width: 320px;
       border-radius: $border-radius;
       border: 1px solid var(--global-border-color);
       background-color: #fff;
@@ -126,9 +128,13 @@
     gap: 0.5em;
 
     .archive__item-thumb {
-      width: 100%;
-      max-width: 360px;
       margin-top: 0;
+
+      img {
+        height: auto;
+        width: 100%;
+        max-width: 360px;
+      }
     }
   }
 }
