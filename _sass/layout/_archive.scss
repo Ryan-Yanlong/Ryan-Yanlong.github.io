@@ -106,14 +106,19 @@
 
     img {
       display: block;
-      /* fix the HEIGHT (not the width) so wide, short figures get the
-         same visual height as taller ones and no longer look flat */
-      height: 108px;
-      width: auto;
-      max-width: 320px;
+      /* Uniform card: every thumbnail is the exact same box, so titles
+         line up across rows and the list stays tidy. Figures keep their
+         own aspect ratio (object-fit: contain — never cropped/stretched);
+         the white card blends with the figures' white background, so a
+         wide figure simply sits centred without an obvious letterbox. */
+      width: 210px;
+      height: 120px;
+      object-fit: contain;
+      object-position: center;
+      padding: 5px;
+      background-color: #fff;
       border-radius: $border-radius;
       border: 1px solid var(--global-border-color);
-      background-color: #fff;
     }
   }
 
@@ -131,9 +136,9 @@
       margin-top: 0;
 
       img {
-        height: auto;
         width: 100%;
         max-width: 360px;
+        height: auto; /* natural height once stacked full-width */
       }
     }
   }
