@@ -86,6 +86,55 @@
 
 
 /*
+   Item with a left-hand thumbnail (e.g. publications with a paper figure)
+   ========================================================================== */
+
+.archive__item--has-thumb {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25em;
+
+  .archive__item-thumb {
+    flex: 0 0 auto;
+    width: 200px;
+    margin-top: 0.6em;
+
+    a {
+      display: block;
+      text-decoration: none;
+      border-bottom: 0;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: $border-radius;
+      border: 1px solid var(--global-border-color);
+      background-color: #fff;
+    }
+  }
+
+  .archive__item-main {
+    flex: 1 1 auto;
+    min-width: 0; /* allow long titles/links to wrap instead of overflowing */
+  }
+
+  /* Stack the figure above the text on narrow screens */
+  @media (max-width: 600px) {
+    flex-direction: column;
+    gap: 0.5em;
+
+    .archive__item-thumb {
+      width: 100%;
+      max-width: 360px;
+      margin-top: 0;
+    }
+  }
+}
+
+
+/*
    List view
    ========================================================================== */
 

@@ -12,8 +12,24 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% comment %} Resolve the thumbnail image for the entry: accepts a full URL or a path under /images/ {% endcomment %}
+{% if post.image %}
+  {% if post.image contains "://" %}
+    {% assign item_image = post.image %}
+  {% else %}
+    {% capture item_image %}{{ post.image | prepend: "/images/" | prepend: base_path }}{% endcapture %}
+  {% endif %}
+{% endif %}
+
+{% comment %} Where the title/thumbnail should link {% endcomment %}
+{% if post.link %}
+  {% assign item_url = post.link %}
+{% else %}
+  {% capture item_url %}{{ base_path }}{{ post.url }}{% endcapture %}
+{% endif %}
+
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item{% if item_image and include.type != "grid" %} archive__item--has-thumb{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -26,6 +42,14 @@
       </div>
     {% endif %}
 
+    {% if item_image and include.type != "grid" %}
+      <div class="archive__item-thumb">
+        <a href="{{ item_url }}"><img src="{{ item_image }}" alt="{{ title | strip_html }}" loading="lazy" itemprop="image"></a>
+      </div>
+    {% endif %}
+
+    <div class="archive__item-main">
+
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -33,7 +57,7 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    
+
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
@@ -80,5 +104,6 @@
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% endif %}
 
+    </div><!-- /.archive__item-main -->
   </article>
 </div>
