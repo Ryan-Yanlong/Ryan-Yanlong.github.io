@@ -10,7 +10,7 @@ redirect_from:
 
 Hi! I'm **Yanlong Zhao (赵衍龙)**, a researcher focusing on AI for Science and Machine Learning. My work sits at the intersection of machine learning and biomedical knowledge graphs, with a particular interest in building models that are both predictive and mechanistically interpretable.
 
-Starting in August 2026, I will join [UNC at Chapel Hill](https://www.unc.edu/) as a Ph.D. student in Data Science, where I will work with [Prof. Jun Li](https://jlilab.org/) on foundation models for cancer research.
+Starting in August 2026, I will join [UNC at Chapel Hill](https://www.unc.edu/) as a Ph.D. student in Data Science, where I will work with [Prof. Jun Li](https://jlilab.org/) on Machine Learning models for cancer research.
 
 
 ## Education
