@@ -41,17 +41,43 @@
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
-;   
+;
 
 @media (min-width: 64em) {
   .page__content {
-    margin-left: 2rem;  
+    margin-left: 2rem;
   }
 
-
   .sidebar {
-    margin-left: -0.75rem;  
+    margin-left: -0.75rem;
   }
 }
 
+/* Flat editorial refinements */
+.masthead {
+  box-shadow: none;
+}
 
+.page__title {
+  letter-spacing: -0.025em;
+}
+
+.page__content h2,
+.archive h2 {
+  letter-spacing: -0.015em;
+}
+
+.page__content a,
+.archive a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+.author__avatar img {
+  padding: 0;
+  border: 0;
+}
+
+.page__footer {
+  color: var(--global-text-color-light);
+}
