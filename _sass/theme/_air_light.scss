@@ -8,14 +8,14 @@ $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
 $light-primary-color        : mix(#000, $primary-color, 50%);
 
-$background                 : #eeeeee;
+$background                 : #ffffff;
 $background-light           : mix(#fff, $background, 20%);
 $background-lighter         : mix(#fff, $background, 90%);
 $text                       : #222831;
-$link                       : #393e46;
+$link                       : #1557a0;
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
-$footer                     : $primary-color;
+$footer                     : #f7f8fa;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -25,8 +25,8 @@ $success-color              : #62c462;
 $warning-color              : #f89406;
 
 /* Other basic settings for the template */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$border-radius              : 2px;
+$box-shadow                 : none;
 $global-transition          : all 0.2s ease-in-out;
 $masthead-height            : 70px;
 $navicon-width              : 28px;
@@ -34,13 +34,13 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dark theme for the site */
+/* Light theme for the site */
 :root {
     --global-base-color                 : #{$background};
     --global-bg-color                   : #{$background};
     --global-footer-bg-color            : #{$footer};
-    --global-border-color               : #{$light-primary-color};
-    --global-dark-border-color          : #{$background-light};
+    --global-border-color               : #e3e7eb;
+    --global-dark-border-color          : #d3d8de;
     --global-code-background-color      : #fafafa;
     --global-code-text-color            : #{$darker-primary-color};
     --global-fig-caption-color          : #{$light-primary-color};
@@ -50,6 +50,6 @@ $sidebar-screen-min-width   : 1024px;
     --global-masthead-link-color        : #{$text};
     --global-masthead-link-color-hover  : #{$link};
     --global-text-color                 : #{$text};
-    --global-text-color-light           : #{$light-primary-color};
+    --global-text-color-light           : #65717d;
     --global-thead-color                : #{$background-lighter};
 }
