@@ -10,14 +10,15 @@
 main:
   - title: "Publications"
     url: /publications/
-    
+
+  - title: "Teaching"
+    url: /teaching/
+
   - title: "CV"
     url: /files/Yanlong_resume.pdf
 
   - title: "Photography"
     url: /photography/
-    
+
   # - title: "CV"
   #   url: /cv-json/
-    
-
