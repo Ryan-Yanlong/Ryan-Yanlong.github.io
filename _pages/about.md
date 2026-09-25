@@ -112,7 +112,7 @@ Starting in August 2026, I will join [UNC at Chapel Hill](https://www.unc.edu/) 
 - Foundation models
 
 ## News
-
+- **2026** - Received Third Place Poster Prize at UNC Data Science Day ('"Deciphering Chemotherapy Resistance in Small Cell Lung Cancer through Integrative Proteomics."')
 - **2026** — Co-first-author work **MuSHIN** (with Yixiao Chen) published in *Communications Biology*. [Paper](https://www.nature.com/articles/s42003-026-09761-1)
 - **2025** — First-author work **DREAM-GNN** published in *Briefings in Bioinformatics*. [Paper](https://academic.oup.com/bib/article/26/5/bbaf555/8303423)
 
